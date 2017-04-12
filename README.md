@@ -5,15 +5,20 @@
 This modules lets you restrict access to the Node-RED editor to specific Twitter
 users.
 
+**Note:** this requires Node-RED 0.17 or later
+
+
 ## Install
 
 In your Node-RED user directory, typically `~/.node-red`:
 
-    $ npm install node-red-auth-twitter
+    $ npm install node-red/node-red-auth-twitter
+
+**Note:** this module will not be published to npm until Node-RED 0.17 is released
 
 ## Usage
 
-#### Create a new Twitter application
+### Create a new Twitter application
 
 To enable access control with Twitter, you must first [create a new application
 on your Twitter account](https://apps.twitter.com/app/new).
@@ -21,7 +26,7 @@ on your Twitter account](https://apps.twitter.com/app/new).
 Once created, you will be provided a _Consumer Key_ and _Consumer Secret_ that
 you will need to use to configure the authentication plugin.
 
-#### Configure `adminAuth`
+### Configure `adminAuth`
 
 Access control for the Node-RED editor is configured in your `settings.js` file
 using the `adminAuth` property.
