@@ -45,6 +45,15 @@ The `baseURL` property is the URL used to access the Node-RED editor.
 The `users` property is the list of Twitter users who are allowed to access the
 editor. It is the same as used by `adminAuth` as described in the [security documentations](http://nodered.org/docs/security), but without the `password` property.
 
+A default user can be specified by adding a `default` property to the options object:
+
+        users: [
+           ...
+        ],
+        default: {
+            permissions: "read"
+        }
+
 ## Copyright and license
 
 Copyright JS Foundation and other contributors, http://js.foundation under [the Apache 2.0 license](LICENSE).
