@@ -14,8 +14,6 @@ In your Node-RED user directory, typically `~/.node-red`:
 
     $ npm install node-red/node-red-auth-twitter
 
-**Note:** this module will not be published to npm until Node-RED 0.17 is released
-
 ## Usage
 
 ### Create a new Twitter application
@@ -43,7 +41,7 @@ using the `adminAuth` property.
 The `baseURL` property is the URL used to access the Node-RED editor.
 
 The `users` property is the list of Twitter users who are allowed to access the
-editor. It is the same as used by `adminAuth` as described in the [security documentations](http://nodered.org/docs/security), but without the `password` property.
+editor. It is the same as used by `adminAuth` as described in the [security documentation](http://nodered.org/docs/security), but without the `password` property.
 
 A default user can be specified by adding a `default` property to the options object:
 
