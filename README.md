@@ -19,7 +19,10 @@ In your Node-RED user directory, typically `~/.node-red`:
 ### Create a new Twitter application
 
 To enable access control with Twitter, you must first [create a new application
-on your Twitter account](https://apps.twitter.com/app/new).
+on your Twitter account](https://apps.twitter.com/app/new). While creating the 
+application, it's important to fill the _Callback URL_ field with a valid URL.
+It does not need to be a "real" URL, you can use `http://example.com` or
+`https://placeholder.com`.
 
 Once created, you will be provided a _Consumer Key_ and _Consumer Secret_ that
 you will need to use to configure the authentication plugin.
