@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 <!--
-This issue tracker is for problems with the Node-RED Twitter Auth Plugin, the editor or the core nodes.
+This issue tracker is for problems with the Node-RED Twitter Auth Plugin.
 
 If your issue is:
   - a general 'how-to' type question,
